@@ -2,7 +2,6 @@ package com.testmock.springmock.dubbo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.fail;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -17,10 +16,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.huawen.mqtt.dubbo.MqttPublisherDubbo;
-
-
 import com.huawen.mqtt.bean.MyMessage;
+import com.huawen.mqtt.dubbo.MqttPublisherDubbo;
 
 import lombok.extern.slf4j.Slf4j;
 
